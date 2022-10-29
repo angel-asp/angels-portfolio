@@ -1,6 +1,12 @@
 
-#header {
+#header div {
     background-color: blue;
     font-family: 'Times New Roman', Times, serif;
     margin: 30px;
+}
+
+.card {
+    color: blue;
+    margin: 20;
+    flex-wrap: wrap;
 }
