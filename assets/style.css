@@ -25,6 +25,7 @@ a {
     color: grey;
     padding: 10px;
     background-color: lightgray;
+    border: 5px var(--colorside);
 }
 
 .header h1 {
@@ -51,4 +52,25 @@ a {
     color: blue;
     margin: 20;
     flex-wrap: wrap;
+}
+
+.article {
+    padding: 50px;
+    display: flex;
+    border: 5px var(--colorside);
+}
+
+.intro {
+    width: 728px;
+    height: 196px;
+    text-align: center;
+    margin: 120px
+
+}
+
+.photome {
+    display: flex;
+    justify-content: end;
+    width: 648px;
+    height: 638px;
 }
