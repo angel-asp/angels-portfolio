@@ -48,11 +48,6 @@ a {
     display: inline-block;
 }
 
-.card {
-    color: blue;
-    margin: 20;
-    flex-wrap: wrap;
-}
 
 .article {
     padding: 50px;
@@ -73,4 +68,48 @@ a {
     justify-content: end;
     width: 648px;
     height: 638px;
+}
+
+.reps {
+    background-color: var(--colorbox);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.cardmain{
+    height: 300px;
+    width: 1800px;
+    align-self: center;
+}
+
+.cardmain h1 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.card {
+    color: blue;
+    margin: 20;
+    flex-wrap: wrap;
+    border: 10px;
+    border-color: brown;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    background-color: lightskyblue;
+    margin: 20px;
+}
+
+
+
+.footer {
+    flex-wrap: wrap;
+    color: grey;
+    padding: 10px;
+    background-color: lightgray;
+    border: 5px var(--colorside);
 }
