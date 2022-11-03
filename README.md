@@ -3,7 +3,7 @@ Description
 Hello! This rep currently under conctuction. This is meant to be a portfolio for Angel Sanchez (ME). It is a basic page highlighting my work (soon to be) and information about me, as well as my contact information. I built this page for future applications I will be sending out. 
 
 GitHub page
-link to GitHub page - ]
+link to GitHub page - https://angel-asp.github.io/angels-portfolio/ ]
 
 Usage
 Please free free to play around with the website and code!
