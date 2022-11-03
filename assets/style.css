@@ -5,6 +5,7 @@
     --shadow: rgb(238, 76, 76);
 }
 
+/* main styling */
 * {
     box-sizing: border-box;
     padding: 0%;
@@ -21,12 +22,17 @@ a {
     text-decoration: none;
 }
 
+/* header styling */
 .header {
     flex-wrap: wrap;
     color: grey;
     padding: 10px;
     background-color: lightgray;
     border: 5px var(--colorside);
+}
+
+ul.liststyle {
+    list-style-type: disc;
 }
 
 .header h1 {
@@ -42,9 +48,6 @@ a {
     font-size: 20px;
 }
 
-ul.liststyle {
-    list-style-type: disc;
-}
 
 
 .header nav ul li {
@@ -56,6 +59,7 @@ ul.liststyle {
     
 }
 
+/* Article styling including the photo */
 
 .article {
     padding: 50px;
@@ -71,17 +75,18 @@ ul.liststyle {
 
 }
 
-.mainheader {
-    text-align: center;
-    font-size: 50px;
-    border-bottom: 10px solid coral;
-}
-
 .photome {
     display: flex;
     justify-content: end;
     width: 648px;
     height: 638px;
+}
+
+/*  main stylings */
+.mainheader {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 10px solid coral;
 }
 
 .reps {
@@ -132,6 +137,7 @@ ul.liststyle {
 
 
 
+/* footer styling */
 .footer {
     flex-wrap: wrap;
     color: grey;
@@ -140,6 +146,9 @@ ul.liststyle {
     border: 5px var(--colorside);
 }
 
+
+
+/*  pseudo elements */
 .card:hover {
     box-shadow: inset 0px 0px 8px var(--shadow), 0 0 15px var(--shadow);
 }
@@ -148,6 +157,8 @@ ul.liststyle {
     box-shadow: inset 0px 0px 8px var(--shadow), 0 0 15px var(--shadow);
 }
 
+
+/* deleting the image of me when screen gets to small */
 @media screen and (max-width: 900px) {
     .photome {
       display: none;
