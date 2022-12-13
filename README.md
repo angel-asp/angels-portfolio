@@ -16,6 +16,8 @@ Please free free to play around with the website and code!
 Credits
 Down below are resources I used to complete the project
 
+The link to the CSS Snippet Cheatsheet was not made by me, it is a placeholder as of right now. All credit goes to captain63
+
 CSS Media Rule - https://www.w3schools.com/CSSref/css3_pr_mediaquery.php 
 
 CSS background -image property- https://www.w3schools.com/cssref/pr_background-image.php 
